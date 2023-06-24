@@ -13,9 +13,9 @@ import time
 
 Bot = Client(
     "Conan76-Simple-IPTV-m3u-to-Video-Bot",
-    bot_token = "5550245504:AAEjLi-8lVDlaIevXZeVK8vhW-xAvm9cEa0",
-    api_id = 16546151,
-    api_hash = "41f98a52cd38d06cb64d62472d8d91e5"
+    bot_token = "1799299844:AAFMQpOzu7p8Wd6Dl0FL4d5FiYJi3-7HQlM",
+    api_id = 2929027,
+    api_hash = "2beecc3ee357e6e3f2b2e783d4159f9f"
 )
 
 
@@ -68,7 +68,7 @@ def channel_list(bot, update):
 
     if update.from_user.id in config.AUTH_USERS:
 
-        url = "https://joyful-rabanadas-c8c125.netlify.app/iptv.json"
+        url = "https://gist.githubusercontent.com/KSBOTSOFFICAL/5f46c704f6d854bb17e663d782d07853/raw/3e7ef5c62e979a573efb9ba8f6411e7b0b90469c/ylbbink.json"
         response = urlopen(url)
         data_json = json.loads(response.read())
 
