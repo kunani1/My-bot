@@ -1,0 +1,10 @@
+pyrogram
+tgcrypto
+requests
+hachoir
+pytz
+aiofiles
+aiohttp
+asyncio
+dnspython
+ffmpeg-python
