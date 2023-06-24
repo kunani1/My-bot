@@ -13,7 +13,7 @@ import subprocess
 
 class config:
     AUTH_USERS = [2023056811 , 1370850852 , 1237324887 , 1940030638]
-    ADMIN_USERS = [2023056811]
+    ADMIN_USERS = [959184369]
 
 
 
